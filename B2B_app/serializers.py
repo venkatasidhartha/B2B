@@ -10,5 +10,5 @@ class FoodSerializer(serializers.ModelSerializer):
 class OrderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Order_model
-        fields = '__all__'
+        fields = ['username','orderItem','orderQuantity','time']
         depth = 1
