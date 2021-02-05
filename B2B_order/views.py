@@ -4,6 +4,8 @@ from B2B_cart.views import order
 from django.http import HttpResponse
 from .models import Order_model,Customer_model
 
+
+#start editing to upload
 # Create your views here.
 def orderDisplay(request):
     if len(key_array) != 0:
